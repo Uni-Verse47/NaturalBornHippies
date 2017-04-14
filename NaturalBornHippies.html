@@ -1,0 +1,123 @@
+<html>
+ <head>
+ <style>
+ top {
+  position: fixed;
+  width: 100%;
+  z-index: 1
+}
+.top {
+  top: 0
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   }
+.topmenu {
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   }
+a:hover:not(.active) {
+   background-color: grey;
+   }
+.third{float:left; width: 33.33333%;}
+img {width: 60%}
+.padding-32{padding-top:32px!important;padding-bottom:32px!important}
+.row:after{content: ""; display: table; clear: both}
+.container01 {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+}
+.flex-item01 {
+width: 33%;
+border: 1px solid green;
+}
+</style>
+  <meta charset= "utf-8">
+  <title>class03</title>
+  <meta name= "viewport" content= "width= device-width, initial-scale= 1.0">
+  <link href= "class03.css" type= "text/css" rel= "stylesheet">
+ </head>
+ <body>
+  <div>
+  <!-- Horizontal menu on top of the web page -->
+   <div class= "top">
+    <ul class= "navbar">
+     <li><a class= "topmenu" href="#home">MilkyWay</a></li>
+     <li><a class= "topmenu" href="#school">Artist</a></li>
+     <li><a class= "topmenu" href="#music">Clothes</a></li>
+     <li><a class= "topmenu" href="#about">Projects</a></li>
+    </ul>
+   </div>
+   <center> 
+    <div style= "background-color:purple ; top: 40px; position: relative" id= "school">
+    <!-- Main title and main picture -->
+     <h1>NaturalBornHippies</h1>
+     <p>Art Work</p>
+        <img src= https://scontent.cdninstagram.com/t51.2885-15/e35/12729493_536771603161215_271709400_n.jpg?ig_cache_key=MTE5MDI1MTg1MTI3MDUwMzcyMw%3D%3D.2/>
+    </div>
+    <div class= "row padding-32" style= "background-color: lightyellow" id= "about">
+    <!-- Itemization of activities -->
+     <h1>The UniVerse</h1>
+     <pre>Be Mindful of Your Self Talk It's A Conversation With The Universe
+     </pre>
+    <div class= "third">
+     <p>Music</p>
+     <a href= https://www.youtube.com/user/youngfits1>
+     <img src= http://scontent.cdninstagram.com/t51.2885-15/s480x480/e15/11378040_437609326427060_951050246_n.jpg?ig_cache_key=MTAyOTI2NzE2NDA1MDg1MTIzNQ%3D%3D.2></a>
+     <p>Music Gives A Soul To The Universe,Wings To The The Mind,Flight To The Imagination And Life To Everything
+     </p>
+    </div>
+    <div class= "third">
+     <p>Clothings</p>
+     <a href= https://www.belovedshirts.com/>
+     <img src= https://cdn-img-1.wanelo.com/p/5bb/3bc/c7d/5b509d1c97aeff9eb202ded/x354-q80.jpg></a>
+     <p>You can describe here whatever you want
+          in the form that you want.
+     </p>
+    </div>
+    <div class= "third">
+     <p>Name3</p>
+     <a href= "http://pybpdx.org/programs/Green-Construction">
+     <img src= "http://pybpdx.org/t/width=5/height=3/cover/f/images/2014-Open-House-67.jpg/poster.jpg" class=></a>
+     <p>You can describe here whatever you want
+          in the form that you want.
+     </p>
+    </div>
+   </center>
+  </div>
+  <div class= "container01" id= "music">
+  <!-- Menu list -->
+    <div class= "flex-item01">flex1
+      <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+      </ul>
+    </div>
+    <div class= "flex-item01">flex2
+      <ul>
+        <li>itemA</li>
+        <li>itemB</li>
+        <li>itemC</li>
+      </ul>
+    </div>
+    <div class= "flex-item01">flex3
+      <ul>
+        <li>itemI</li>
+        <li>itemII</li>
+        <li>itemIII</li>
+      </ul>
+    </div>
+  </div>
+ </body>
+</html>
